@@ -1,4 +1,4 @@
-# Music Emotion Recognition
+# Music Emotion Recognition ♪ ♫
 
 ## Introduction
 The connection between music and emotion is a fascinating topic that interests musicians, psychologists,
