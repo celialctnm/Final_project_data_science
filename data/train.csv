@@ -1,2 +1,98 @@
-ID,music name,artist name,bpm,tone,intensity,music key,chord progression,length,emotion
-1, X, X, 130, major, medium, X, X, 2, joy
+music_name,artist(s)_name,bpm,key,mode,danceability_%,valence_%,energy_%,acousticness_%,instrumentalness_%,speechiness_%,emotion
+Seven (feat. Latto) (Explicit Ver.),"Latto, Jung Kook",125,B,Major,80,89,83,31,0,4,Love
+LALA,Myke Towers,92,C#,Major,71,61,74,7,0,4,Love
+vampire,Olivia Rodrigo,138,F,Major,51,32,53,17,0,6,Sadness
+Cruel Summer,Taylor Swift,170,A,Major,55,58,72,11,0,15,Joy
+WHERE SHE GOES,Bad Bunny,144,A,Minor,65,23,80,14,63,6,Joy
+Ella Baila Sola,"Eslabon Armado, Peso Pluma",148,F,Minor,67,83,76,48,0,3,Sadness
+Columbia,Quevedo,100,F,Major,67,26,71,37,0,4,Joy
+fukumean,Gunna,130,C#,Minor,85,22,62,12,0,9,Calm
+La Bebe - Remix,"Peso Pluma, Yng Lvcas",170,D,Minor,81,56,48,21,0,33,Joy
+un x100to,"Bad Bunny, Grupo Frontera",83,F#,Minor,57,56,72,23,0,5,Joy
+Super Shy,NewJeans,150,F,Minor,78,52,82,18,0,7,Joy
+Flowers,Miley Cyrus,118,,Major,71,65,68,6,0,7,Sadness
+Daylight,David Kushner,130,D,Minor,51,32,43,83,0,3,Sadness
+As It Was,Harry Styles,174,F#,Minor,52,66,73,34,0,6,Sadness
+Kill Bill,SZA,89,G#,Major,64,43,73,5,17,4,Anger
+Cupid - Twin Ver.,Fifty Fifty,120,B,Minor,78,76,59,43,0,3,Love
+"What Was I Made For? [From The Motion Picture ""Barbie""]",Billie Eilish,78,,Major,44,14,9,96,0,3,Sadness
+Classy 101,"Feid, Young Miko",100,B,Major,86,67,66,14,0,16,Joy
+Like Crazy,Jimin,120,G,Major,63,36,73,0,0,4,Sadness
+LADY GAGA,"Gabito Ballesteros, Junior H, Peso Pluma",140,F,Minor,65,87,74,22,0,4,Joy
+I Can See You,Taylor Swift,123,F#,Major,69,82,76,6,0,3,Anger
+I Wanna Be Yours,Arctic Monkeys,135,,Minor,48,44,42,12,2,3,Love
+"Peso Pluma: Bzrp Music Sessions, Vol. 55","Bizarrap, Peso Pluma",133,F,Minor,85,81,67,26,0,5,Joy
+Popular (with Playboi Carti & Madonna) - The Idol Vol. 1 (Music from the HBO Original Series),"The Weeknd, Madonna, Playboi Carti",99,C#,Major,85,83,68,7,0,20,Joy
+SABOR FRESA,Fuerza Regida,130,G,Minor,79,96,86,9,0,9
+Calm Down (with Selena Gomez),"Rema, Selena G",107,B,Major,80,82,80,43,0,4,Calm
+MOJABI GHOST,"Tainy, Bad Bunny",122,F#,Minor,81,74,71,14,0,4,Joy
+Last Night,Morgan Wallen,204,F#,Major,52,52,68,46,0,4,Sadness
+Dance The Night (From Barbie The Album),Dua Lipa,110,B,Minor,67,78,85,2,0,5,Joy
+Rush,Troye Sivan,126,F,Minor,74,35,84,0,0,6,Joy
+TULUM,"Peso Pluma, Grupo Frontera",168,F#,Major,56,63,87,39,0,5,Joy
+Creepin',"The Weeknd, 21 Savage, Metro Boomin",98,C#,Minor,71,17,61,36,0,5,Sadness
+Anti-Hero,Taylor Swift,97,E,Major,64,51,63,12,0,5,Sadness
+TQG,"Karol G, Shakira",180,E,Minor,72,61,63,67,0,28,Anger
+Los del Espacio,"Big One, Duki, Lit Killah, Maria Becerra, FMK, Rusherking, Emilia, Tiago pzk",120,,Major,81,63,68,11,0,4,Joy
+Frágil (feat. Grupo Front),"Yahritza Y Su Esencia, Grupo Frontera",150,F#,Major,61,39,73,37,0,3,Sadness
+Blank Space,Taylor Swift,96,F,Major,75,57,68,9,0,6,Anger
+Style,Taylor Swift,95,D,Major,60,48,79,0,0,4,Love
+TQM,Fuerza Regida,125,F,Minor,79,96,85,27,0,6,Love
+Sunflower - Spider-Man: Into the Spider-Verse,"Post Malone, Swae Lee",90,D,Major,76,91,50,54,0,5,Joy
+I'm Good (Blue),"Bebe Rexha, David Guetta",128,G,Minor,56,38,97,4,0,4,Joy
+See You Again,"Tyler, The Creator, Kali Uchis",79,F#,Major,56,58,56,37,0,10,Love
+Barbie World (with Aqua) [From Barbie The Album],"Nicki Minaj, Aqua, Ice Spice",144,,Major,77,75,58,52,0,25,Joy
+Angels Like You,Miley Cyrus,122,F,Major,67,49,64,10,0,3,Sadness
+I Ain't Worried,OneRepublic,140,,Major,71,82,81,11,0,5,Joy
+Die For You,The Weeknd,134,C#,Minor,59,51,52,9,0,7,Love
+Starboy,"The Weeknd, Daft Punk",186,G,Major,68,49,59,16,0,28,Joy
+Die For You - Remix,"Ariana Grande, The Weeknd",67,C#,Minor,53,50,53,23,0,7,Love
+El Cielo,"Feid, Myke Towers, Sky Rompiendo",106,A#,Minor,72,17,64,7,0,5,Joy
+AMARGURA,Karol G,107,F#,Minor,92,55,70,18,0,7,Sadness
+(It Goes Like) Nanana - Edit,Peggy Gou,130,G,Minor,67,96,88,12,19,4,Joy
+Another Love,Tom Odell,123,E,Minor,45,13,54,70,0,4,Sadness
+Blinding Lights,The Weeknd,171,C#,Major,50,38,80,0,0,7,Joy
+Moonlight,Kali Uchis,137,G,Minor,64,88,72,51,0,5,Love
+La Bachata,Manuel Turizo,125,G,Minor,84,85,68,58,0,4,Joy
+S91,Karol G,128,,Minor,86,42,72,59,0,19,Anger
+cardigan,Taylor Swift,130,,Minor,61,53,58,55,0,4,Calm
+Boy's a liar Pt. 2,"PinkPantheress, Ice Spice",133,F,Major,70,86,81,25,0,5,Anger
+Left and Right (Feat. Jung Kook of BTS),"Charlie Puth, BTS, Jung Kook",101,D,Major,88,72,59,62,0,3,Joy
+BESO,"Rauw Alejandro, ROSAL√Ø¬ø¬Ω",95,F,Minor,77,53,64,74,0,14,Love
+Hey Mor,"Ozuna, Feid",98,C#,Minor,90,40,59,0,0,29,Joy
+Yellow,Chris Molitor,173,B,Major,43,28,66,0,0,3,Calm
+Karma,Taylor Swift,90,G#,Major,64,10,62,7,0,7,Joy
+People,Libianca,198,A#,Minor,59,71,42,55,0,7,Sadness
+Overdrive,Post Malone,140,C#,Major,56,48,73,0,0,4,Sadness
+BABY HELLO,"Rauw Alejandro, Bizarrap",130,C#,Minor,77,84,89,17,0,5,Joy
+Heat Waves,Glass Animals,81,B,Major,76,53,53,44,0,9,Sadness
+golden hour,JVKE,94,C#,Minor,51,14,59,65,18,3,Love
+Sweater Weather,The Neighbourhood,124,A#,Major,61,41,81,5,2,3,Calm
+Quevedo: Bzrp Music Sessions, Vol. 52,"Bizarrap, Quevedo",128,D,Major,62,55,78,1,3,4,Anger
+Viva La Vida,Coldplay,138,F,Minor,49,42,62,9,0,3,Sadness
+Here With Me,d4vd,132,E,Major,58,27,48,50,0,3,Love
+Unholy (feat. Kim Petras),"Sam Smith, Kim Petras",131,D,Major,71,24,47,1,0,9,Anger
+Yandel 150,"Yandel, Feid",168,F#,Minor,78,58,73,5,0,7,Joy
+Riptide,Vance Joy,102,C#,Major,48,50,73,43,0,4,Joy
+Until I Found You (with Em Beihold) - Em Beihold Version,"Em Beihold, Stephen Sanchez",101,A#,Major,34,32,57,78,0,3,Love
+Back To December (Taylor's Version),Taylor Swift,142,D,Major,50,20,64,1,0,3,Sadness
+STAY (with Justin Bieber),"Justin Bieber, The Kid Laroi",170,C#,Major,59,48,76,4,0,5,Joy
+El Merengue,"Marshmello, Manuel Turizo",124,G#,Minor,78,70,68,3,1,4,Joy
+Someone You Loved,Lewis Capaldi,110,C#,Major,50,45,41,75,0,3,Sadness
+Makeba,Jain,116,D,Major,82,40,66,39,51,7,Joy
+MONTAGEM - FR PUNK,"Ayparia, unxbected",129,A,Major,63,84,82,70,8,7,Joy
+Fast Car,Luke Combs,98,G#,Major,71,67,60,19,0,3,Anger
+What It Is (Solo Version),Doechii,172,C#,Minor,74,76,76,6,0,9,Joy
+Coco Chanel,"Bad Bunny, Eladio Carrion",150,D,Major,68,14,76,4,0,4,Joy
+Still With You,Jung Kook,88,C#,Minor,53,34,47,9,0,4,Love
+All My Life (feat. J. Cole),"J. Cole, Lil Durk",143,D#,Major,83,69,44,15,0,33,Joy
+Say Yes To Heaven,Lana Del Rey,100,F#,Minor,49,17,35,71,9,3,Love
+Snooze,SZA,143,F,Major,56,39,55,14,0,13,Love
+Take Two,BTS,93,G,Major,62,57,59,3,0,3,Joy
+Chemical,Post Malone,170,D,Major,50,37,90,0,0,5,Love
+Mockingbird,Eminem,84,E,Minor,62,24,67,21,0,28,Sadness
+Set Fire to the Rain,Adele,108,D,Minor,61,47,68,0,0,3,Anger
+No Role Modelz,J. Cole,100,A#,Minor,70,47,52,30,0,33,Anger
+Tattoo,Loreen,150,D#,Minor,55,30,78,24,0,8,Love
+Rara Vez,"Taiu, Milo j",120,F,Minor,84,96,71,18,0,17,Joy
+august,Taylor Swift,90,F,Major,51,42,61,53,0,3,Sadness
