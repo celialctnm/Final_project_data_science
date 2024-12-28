@@ -6,12 +6,12 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 import warnings
-import numpy as np
 from sklearn.model_selection import ParameterGrid
 import matplotlib.pyplot as plt
 import component
 
 warnings.filterwarnings('ignore')
+
 
 def svm_model():
     print("_____ SVM _____")
@@ -104,17 +104,17 @@ def random_forest_model():
 
     component.draw_confusion_matrix("Random Forest", y, y_test, y_pred_best)
 
-    importances = best_rf.feature_importances_
-    indices = np.argsort(importances)[::-1]
+    importance = best_rf.feature_importances_
 
     plt.figure(figsize=(10, 6))
-    plt.barh(range(len(importances)), importances, align='center')
-    plt.yticks(range(len(importances)), feature_names)
+    plt.barh(range(len(importance)), importance, align='center')
+    plt.yticks(range(len(importance)), feature_names)
     plt.xlabel('Importance')
     plt.ylabel('Features')
     plt.show()
 
     return best_rf
+
 
 def KNN_model():
     print("_____ KNN _____")
@@ -132,7 +132,7 @@ def KNN_model():
     grid_search = GridSearchCV(KNeighborsClassifier(), param_grid, cv=5, scoring='accuracy')
     grid_search.fit(X_train, y_train)
 
-    print("Best hyperparamètres : ", grid_search.best_params_)
+    print("Best hyperparameter : ", grid_search.best_params_)
     print("Best score : ", grid_search.best_score_)
 
     best_knn = grid_search.best_estimator_
@@ -140,6 +140,7 @@ def KNN_model():
 
     component.evaluation_model(y_test, y_pred)
     component.draw_confusion_matrix("KNN", y, y_test, y_pred)
+
 
 # loading of dataset (available on kaggle)
 music_data = pd.read_csv("../data/final_dataset/data_moods.csv")
@@ -149,7 +150,7 @@ X = music_data.drop(columns=['mood', 'name', 'album', 'artist', 'id', 'release_d
 y = music_data['mood']
 feature_names = X.columns
 
-component.graph_dataset(1, music_data,X,y)
+component.graph_dataset(1, music_data, X, y)
 
 # SVM MODEL
 svm_model()

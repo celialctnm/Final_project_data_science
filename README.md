@@ -1,6 +1,7 @@
 # Music Emotion Recognition ♪ ♫
-
-## Introduction
+___
+## Overview
+___
 The connection between music and emotion is a fascinating topic that interests musicians, psychologists,
 and researchers. Various musical elements, such as chord progression, tonality, intensity, and tempo,
 play important roles in shaping how we feel when we listen to music. For instance, certain chord
@@ -19,13 +20,35 @@ intensity, tonality... By understanding how these musical elements influence lis
 to identify the main feelings that artists want to convey. This research will deepen our appreciation of
 music and its emotional impact.
 
-## Dataset
-- Emotion (Joy, Sadness, Love, Anger, Calm)
-- Music name
-- Artist name
-- BPM
-- Tone
-- intensity
-- Music key
-- Chord Progression
-- Length
+___
+## Architecture
+___
+- **data/**
+    - **custom_dataset/custom_data.csv** : The first dataset, which we have customized as best as possible to address our problem statement. 
+    - **final_dataset/data_moods.csv** : The final dataset we selected, the one that provides us with the best input data.
+    - **graph**/ : The saved plots from main.py.
+- **src/**
+  - **component.py** : This file contains functions for visualizing plots and results (confusion matrix, classification report, etc.).
+  - **custom_dataset.py** : The file to execute to access the results and tests of our various models with our customized dataset (these are not the best results).
+  - **main.py** : The main file to execute, containing the final and optimized implementation of our three models (SVM, Random Forest, KNN) based on the Kaggle dataset.
+___
+## Setup & run
+___
+### Python Version and librairies
+___
+- Python 3.9
+- Pandas
+- Matplotlib
+- Scikit-Learn
+- Seaborn
+___
+### Execute the program
+___
+Run the file main.py to execute the version using the dataset **Spotify Music Data to Identify the Moods.**
+
+You can also run custom_dataset.py to obtain the detailed results described in the report for the **customized dataset**.
+___
+## References
+___
+**Spotify Music data to identify the moods** https://www.kaggle.com/datasets/musicblogger/spotify-music-data-to-identify-the-moods 
+
